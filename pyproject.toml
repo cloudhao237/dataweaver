@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataweaver"
+version = "0.1.0"
+authors = [
+  { name="CloudHaven", email="cloudhaven12@gmail.com" },
+]
+description = "Fast, Privacy-First Batch Data Merger & Entity Extractor (CLI + Desktop GUI)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+]
+
+[project.scripts]
+dataweaver = "dataweaver.cli:main"
