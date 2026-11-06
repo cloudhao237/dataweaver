@@ -56,7 +56,7 @@ If you don't want to install Python or use the command line:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/dataweaver.git
+git clone https://github.com/cloudhao237/dataweaver.git
 cd dataweaver
 
 # Install as editable package
